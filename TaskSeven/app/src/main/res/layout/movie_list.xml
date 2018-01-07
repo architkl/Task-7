@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mM2">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="174dp"
+        android:layout_toEndOf="@+id/movieName"
+        android:layout_toRightOf="@+id/movieName"
+        android:text="TextView"
+        android:textColor="@color/mM3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/movieName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+        android:textSize="20sp"
+        android:textColor="@color/mM5"
+        android:text="@string/movie_name" />
+
+    <TextView
+        android:id="@+id/movieGenre"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/movieName"
+        android:layout_alignStart="@+id/movieName"
+        android:layout_below="@+id/movieName"
+        android:layout_marginTop="114dp"
+        android:textSize="20sp"
+        android:textColor="@color/mM5"
+        android:text="@string/genre_name" />
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_alignTop="@+id/movieGenre"
+        android:text="TextView"
+        android:textColor="@color/mM3"
+        android:textSize="20sp" />
+</RelativeLayout>

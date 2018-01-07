@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task Seven</string>
+    <string name="movie_name">Movie:</string>
+    <string name="genre_name">Genre:</string>
+</resources>
